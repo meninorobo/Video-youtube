@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/style2.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+</head>
+<body>
+    
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IJs81BcpvFY?si=69oOexCLw7O5d45U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+    <div class="pai"> 
+    <div id="video-box" style="width:800px;">
+        <div class="wrapper" style="">
+            <div class="video-absolute">
+    
+                <div class="wistia-vdieo-container">
+                    <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                            <div style="padding:56.25% 0 0 0;position:relative;">
+                                <div class="video-wrap-wrap" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                    
+                                    
+    
+    <!--SUBSTITUIR LINK https://www.youtube.com/embed/8zfLyteqfb4 PELO SEU-->
+    <iframe 
+    id="video" style="height:100%; width:100%; border-radius: 50px;" 
+    src="https://www.youtube.com/embed/cba9xWne06c?rel=0&amp;controls=0&amp;showinfo=0&amp;enablejsapi=1&amp;playsinline=1&amp;mute=1" frameborder="1"  allow="autoplay;" allowfullscreen></iframe>
+                                    
+                                   
+    
+                                    <div id="play-button-video" class="semt" style="background-size: cover;">
+                                        <div class="play-text">
+                                            CLIQUE PARA ASSISTIR
+                                        </div>
+                                        <div class="continue-text" style="display: none;">
+                                            CONTINUAR ASSISTINDO
+                                        </div>
+                                        <div id="fullscreen-button" class="video-paused-btn">
+                                            <img src="https://i.postimg.cc/KvjgW9Gn/video-paused-btn.png" alt="" />
+                                        </div>
+                                        <div class="play-text play-text--bottom">
+                                            CLIQUE PARA ASSISTIR
+                                        </div>
+                                        <div class="continue-text continue-text--bottom" style="display: none;">
+                                            CONTINUAR ASSISTINDO
+                                        </div>
+                                    </div>
+                                     <div class="youtube-overlay"></div>  <!-- Bloquear o click ao botão do Youutube inferior-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  
+             </div>
+        </div>
+    </div>
+
+</div>
+    <script src="/script/scriptmeu.j"></script>
+
+
+    <script src="/script/script1.js"></script>
+    <script src="/script/script2.js"></script>
+    <script src="/script/script3.js"></script>
+<style>
+    .fullscree{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+</style>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.esconder {
+    display: none;
+}
+
+.pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56vw;
+    background: black;
+    overflow: hidden;
+}
+*{
+    border: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
