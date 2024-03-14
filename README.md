@@ -1,6 +1,4 @@
 # Youtube-vimeo
 
-Coom esté codigo você irar conseguir manipular video
+Com esté codigo você irar conseguir manipular video
 do yotube no formato do vimeo.
-# Video-youtube
-# Video-youtube
